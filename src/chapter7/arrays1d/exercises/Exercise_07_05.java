@@ -44,5 +44,8 @@ public class Exercise_07_05 {
 }
 
 /*
-
+Enter 10 scores:
+1 2 3 2 1 6 3 4 5 2
+Number of distinct scores: 6
+Distinc scores are : 1 2 3 6 4 5
  */
