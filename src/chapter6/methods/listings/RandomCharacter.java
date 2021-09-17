@@ -12,7 +12,7 @@ public class RandomCharacter {
     }
 
     public static char getRandomUpperCaseLetter() {
-        return getRandomCharacter('A', '<');
+        return getRandomCharacter('A', 'Z');
     }
 
     public static char getRandomDigitCharacter() {

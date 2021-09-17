@@ -15,7 +15,7 @@ public class Exercise_3_32 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.println("Enter 3 points for p0, p1 and p2");
 		double p0X = input.nextDouble();
 		double p0Y = input.nextDouble();
@@ -23,17 +23,17 @@ public class Exercise_3_32 {
 		double p1Y = input.nextDouble();
 		double p2X = input.nextDouble();
 		double p2Y = input.nextDouble();
-		
-		
-		double placementCondition = (p1X - p0X) * (p2Y - p0Y) - 
-															(p2X - p0X) * (p1Y - p0Y);
-		
-		
-		if (placementCondition > 0) {
+
+
+		double pointPosition = (p1X - p0X) * (p2Y - p0Y)
+				- (p2X - p0X) * (p1Y - p0Y);
+
+
+		if (pointPosition > 0) {
 			System.out.println("P2 is on the left");
-		} else if ( placementCondition == 0) {
+		} else if (pointPosition == 0) {
 			System.out.println("P2 is on the same line.");
-		} else if (placementCondition<0 ) {
+		} else if (pointPosition < 0) {
 			System.out.println("P2 is on the right");
 		}
 		
