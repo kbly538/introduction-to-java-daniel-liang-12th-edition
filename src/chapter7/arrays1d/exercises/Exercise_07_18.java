@@ -27,7 +27,6 @@ public class Exercise_07_18 {
 
     public static void bubbleSort(int[] list) {
         boolean isSorted = false;
-        boolean noSwaps = false;
         int i = 0;
         int counter = 0;
         while (!isSorted) {
@@ -41,9 +40,8 @@ public class Exercise_07_18 {
                     isSorted = false;
                 }
             }
-            if (isSorted != true) {
+            if (isSorted != true)
                 i = 0;
-            }
         }
         System.out.println(counter + " passes");
     }
