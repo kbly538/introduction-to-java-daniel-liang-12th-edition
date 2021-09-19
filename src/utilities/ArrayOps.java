@@ -73,4 +73,11 @@ public class ArrayOps {
         }
         return result;
     }
+
+    public static String charArrayToString(char[] chars) {
+        String s = "";
+        for (char ch : chars)
+            s += ch;
+        return s;
+    }
 }
