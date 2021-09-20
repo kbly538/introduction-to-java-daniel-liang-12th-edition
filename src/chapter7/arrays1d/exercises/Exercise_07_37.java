@@ -97,13 +97,24 @@ public class Exercise_07_37 {
 }
 
 /* OUTPUT
-Total tries: 4133
-|Q| | | | | | | |
-| | | | |Q| | | |
-| | | | | | | |Q|
-| | | | | |Q| | |
-| | |Q| | | | | |
-| | | | | | |Q| |
-| |Q| | | | | | |
-| | | |Q| | | | |
+Enter number of balls:
+10
+Enter number of slots:
+10
+LLRLRLLLRL
+LRRRLLRRLR
+LLRRLRLRRR
+RLLLRLLRRL
+LRRLRLRRRL
+LLLRLLLLRL
+RLRLRLRLLR
+RRLLLRLRRL
+LLRRLRLRRL
+LRRLLLRRRR
+[0, 0, 1, 1, 1, 3, 4, 0, 0, 0]
+4
+                   O
+                O  O
+                O  O
+       O  O  O  O  O
  */
