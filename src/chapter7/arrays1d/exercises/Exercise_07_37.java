@@ -18,10 +18,80 @@ falls into slots[4], and for the path RRLLLLL, the ball falls into slots[2].)
 */
 package chapter7.arrays1d.exercises;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Exercise_07_37 {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        //Number of Balls
+        System.out.println("Enter number of balls: ");
+        int numberOfBalls = input.nextInt();
+        // Number of slots
+        System.out.println("Enter number of slots: ");
+        int numberOfSlots = input.nextInt();
+
+        int[] slots = new int[numberOfSlots];
+
+        for (int i = 0; i < numberOfBalls; i++) {
+            int slotIndex = startMachine(numberOfSlots);
+            slots[slotIndex]++;
+            System.out.println();
+        }
+
+        System.out.println(Arrays.toString(slots));
 
 
+        System.out.println(getMaxInArray(slots));
+
+        int height = getMaxInArray(slots);
+        int max = getMaxInArray(slots);
+        for (int j = 0; j < height; j++) {
+            for (int i = 0; i < slots.length; i++) {
+                if (slots[i] == max) {
+                    System.out.print(" O ");
+                    slots[i] -= 1;
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            max--;
+            System.out.println();
+
+        }
+
+
+    }
+
+    public static int startMachine(int numberOfSlots) {
+        int slotNumber = 0; // 0 left 1 right
+        for (int i = 0; i < numberOfSlots; i++) {
+            int direction = (int) (Math.random() * 2); // 0 left 1 right
+            if (direction == 1) {
+                slotNumber++;
+                System.out.print("R");
+            } else {
+                System.out.print("L");
+            }
+        }
+        return slotNumber;
+    }
+
+    public static int getMaxInArray(int[] list) {
+        int max = 0;
+        for (int i = 0; i < list.length; i++) {
+            if (list[i] > max)
+                max = list[i];
+        }
+        return max;
+    }
+
+    public static boolean isEmptyList(int[] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum == 0;
     }
 
 }

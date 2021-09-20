@@ -14,7 +14,6 @@ Write a program that displays one such solution. A sample output is shown below:
 */
 package chapter7.arrays1d.exercises;
 
-import java.util.Scanner;
 
 public class Exercise_07_36 {
     public static void main(String[] args) {
