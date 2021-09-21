@@ -1,8 +1,6 @@
 /* Listing 8.5 */
 package chapter8.array2d.listings;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Scanner;
 
 public class Weather {
