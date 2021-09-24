@@ -29,5 +29,15 @@ public class TestRectangle {
 
 
 /* OUTPUT
+rectangle1:
+width: 4,000000
+height: 40,000000
+area: 160,000000
+perimeter: 320,000000
 
+rectangle2:
+width: 3,500000
+height: 35,900000
+area: 125,650000
+perimeter: 251,300000
  * */

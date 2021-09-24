@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="261px"
+     height="142px" viewBox="-0.5 -0.5 261 142"
+     content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-09-24T21:06:34.185Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.83 Safari/537.36&quot; etag=&quot;grTOf_LiKAlQIR5hqBAP&quot; version=&quot;14.7.7&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;C5RBs43oDa-KdzZeNtuy&quot; name=&quot;Page-1&quot;&gt;7VZdc6IwFP01zGwf3OFDqD4W1O6H7draXR93IkTIGBI2xKr99XsDQRS0rd3xbWcYhntyc5Pcc+4NhhOkm1uBsuSOR5gathltDGdg2LbT78JbAVsNuGYJxIJEJWTVwJS8YA1WbisS4fzAUXJOJckOwZAzhkN5gCEh+PrQbcHp4aoZinELmIaIttEZiWRSoj37usa/YBIn1cqW1y9H5ihcxoKvmF7PsB3L6vruqBxOURVLHzRPUMTXe5AzNJxAcC7Lr3QTYKpSW6Vt9nU7o+Old/vtIf+Dfvrfn+5/dcpgo3Om7E4oMJMfDu11OsuH+Le7+SFn91MWTdb2Y8dyy9jPiK50PqeSh0t9YrmtspyvSUoRA8tfcCanesQCG1ESM/gOYXdYAPCMhSRA0I0ekDwDNEwIjcZoy1fqDLmE7FeWn3BBXiAsojomDAuptWZ7Bx5TNRNgE1CBc/CZVImxGtAd2hw4jlEuNRBySlGWk/nuGCkSMWE+l5Kn1SwlDhxpK19iGSbaWBBKA065KNLjjLquD7pSGxd8ifdGTLtn9k2dtj182B0NhmpdTQDkDG8ain6Db2snQqhtzFMsxRbmVVFMrVtd15WM13WR2J7Gkv0CcXq6OHVhxrvQtbrgQwvsHLF5LbEZtq90tk3nHELdwPdUCsJiA0iHcjSL/CgXhlL8qkMm8DPhqzygPIfxiSChnhDxlWK5OSFcCZXfI44N6QMvssUs42Ut7MlAQ1U5ULyQJ4shz1AIuxwXPoNujTxqIhTEYe6CFi0nIVGEWSFJiSQqVavOknHCZEGU68MDfAbmZ9dwYeMB2FZtw6PcBYiQwVkQKbSFoSTWWJXFvwn0le7SVmilSO99ivS6lxLk9RFBNtinpGC1ZL+6YKwPUZ8CiRTXXD8pKQw6VksPTlsPzhHuKZpjOgG5S8JVfFH6NjTxFu3nd6xiXX93e+656Pvzgprpv7OLXayH9U70MH1tmp9O9LPgSBO7qoxiaqM/xVgGCWIxnmChrlYV+wpep5paYBs3Zku+/5vXpYTYe58Qu+bZSgSz/qssxvb+3J3hXw==&lt;/diagram&gt;&lt;/mxfile&gt;"
+     style="background-color: rgb(17, 75, 95);">
+    <defs>
+        <clipPath id="mx-clip-4-31-252-64-0">
+            <rect x="4" y="31" width="252" height="64"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-103-252-40-0">
+            <rect x="4" y="103" width="252" height="40"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 260 0 L 260 26" fill="#f45b69" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="all"/>
+        <path d="M 0 26 L 0 138 L 260 138 L 260 26" fill="none" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 0 26 L 260 26" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="129.5" y="17.5">Stock</text>
+        </g>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-252-64-0)"
+           font-size="12px">
+            <text x="5.5" y="43.5">+ symbol: String</text>
+            <text x="5.5" y="57.5">+ name: String</text>
+            <text x="5.5" y="71.5">+ previousClosingPrice: double</text>
+            <text x="5.5" y="85.5">+ currentPrice: double</text>
+        </g>
+        <path d="M 0 94 L 260 94" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-103-252-40-0)"
+           font-size="12px">
+            <text x="5.5" y="115.5">+ Stock ( symbol: String, name: String): Stock</text>
+            <text x="5.5" y="129.5">+ getChangePercent () : double</text>
+        </g>
+    </g>
+</svg>

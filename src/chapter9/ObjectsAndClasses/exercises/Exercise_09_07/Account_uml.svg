@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="362px"
+     height="294px" viewBox="-0.5 -0.5 362 294"
+     content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-09-24T22:22:03.349Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.83 Safari/537.36&quot; etag=&quot;bWhQ5XSLCGtmZ4W42OFI&quot; version=&quot;14.7.7&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;C5RBs43oDa-KdzZeNtuy&quot; name=&quot;Page-1&quot;&gt;7VfbcpswEP0aZpoHd7jY2H402E7TOmkSp/VjRwEZNBaICjnY+fquQNyMk9jppE+dYRh0tLvay9nVoFlutLvkKAmvmY+pZur+TrOmmmn2h0N4S2CvANMqgIATv4CMGliSZ6xAXaFb4uO0JSgYo4IkbdBjcYw90cIQ5yxri60ZbZ+aoAB3gKWHaBddEV+EBToyhzX+BZMgLE827HGx84i8TcDZNlbnaaZlGH1nMC+2I1TaUoGmIfJZ1oCsmWa5nDFRfEU7F1OZ2jJtq6v9ii429uXXu/Q3+uF8e7j52SuMzc9RqSLkOBbvNm33epu74Ndg912sbpaxf5uZ9z1jUNh+QnSr8jnxPMiJ0ExbJkTXLEeFL/ZlytOMRBTFsHLWLBZLtWPAGlESxPDtgauYA/CEuSBQrYnaECwB1AsJ9Rdoz7YyoFRAKcqVEzJOnsEsosombHOhiAdeNSWWUhNg6SbHKcjcllkyDqBrtGsJLlAqFOAxSlGSkscqjAjxgMQOE4JFpZZkCvbVKt1g4YVqsSaUuowynqfHmvcHDpBMOs7ZBjd2dHOkj3WVtgY+68+nM6NKtcwZ3h3Q+43iGxUjodExi7Dge9ArreiKxKrJS05ndcdYtsLCRreYYwUi1aVBZbqmGnwotp3DPLvDvF6hA75ZE/nZImEv71hgnYcrCZ9tZcnaQiiOt4heSfrhVNwj8Ya8DxIux/Cuj57mWgesh5KITlFjVrRBgwEKKjuB4rV4sQ/SBHkkDha5zLRfI/eqBhJioLum+egJie/jOGejQAIVhJWRJAzSlddo4MADVXP1zwNtAI67sDbqNTxSnAP/YogFkZxWGLohw7Ij/o6br0yZLjlLMtqnkdHufxQXhx0udqpPSV7VovrlRWO8q/QRFJHiutYPkgrTntHhg9Xlg3Wk9hQ9YnrLUiIIk/Z5IXvAibfKfv6wys91qlu0IaLu0Q/kzPjEATb6KMqMjlAGwtWr61P/dFHNk2N36oHw4eBzX5l37ilj7qJzWoDFld92jBxxKu2KPTHpXtecUznYEO5M2crsUfGXbE+OBXjSMW9pvnTitHUTNBSK66CrcA2NEdL92T52VU9Sy4gIfY4yKYwiRZyDkr8Woo8TOSTeo/7/Kvw3V+F4dNpYM8bm2YMNlvXPSr7X+CG0Zn8A&lt;/diagram&gt;&lt;/mxfile&gt;"
+     style="background-color: rgb(17, 75, 95);">
+    <defs>
+        <clipPath id="mx-clip-4-31-352-64-0">
+            <rect x="4" y="31" width="352" height="64"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-103-352-192-0">
+            <rect x="4" y="103" width="352" height="192"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 360 0 L 360 26" fill="#f45b69" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="all"/>
+        <path d="M 0 26 L 0 290 L 360 290 L 360 26" fill="none" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 0 26 L 360 26" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="179.5" y="17.5">Account</text>
+        </g>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-352-64-0)"
+           font-size="12px">
+            <text x="5.5" y="43.5">- id : int</text>
+            <text x="5.5" y="57.5">- balance : double</text>
+            <text x="5.5" y="71.5">- annualInterestRate : double</text>
+            <text x="5.5" y="85.5">- dateCreated : Date</text>
+        </g>
+        <path d="M 0 94 L 360 94" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-103-352-192-0)"
+           font-size="12px">
+            <text x="5.5" y="115.5">+ Account () : Account</text>
+            <text x="5.5" y="129.5">+ Account (id : int, balance : double, annualInterestRate : double)</text>
+            <text x="5.5" y="143.5">+ getId () : int</text>
+            <text x="5.5" y="157.5">+ setId () : void</text>
+            <text x="5.5" y="171.5">+ getBalance () : double</text>
+            <text x="5.5" y="185.5">+ setBalance () : void</text>
+            <text x="5.5" y="199.5">+ getAnnualInterestRate () : double</text>
+            <text x="5.5" y="213.5">+ setAnnualInterestRate () : void</text>
+            <text x="5.5" y="227.5">+ getDateCreated () : Date</text>
+            <text x="5.5" y="241.5">+ getMonthlyInterestRate () : double</text>
+            <text x="5.5" y="255.5">+ getMonthlyInterest () : double</text>
+            <text x="5.5" y="269.5">+ withdraw (amount : double) : void</text>
+            <text x="5.5" y="283.5">+ deposit (amount : double) : void</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="261px"
+     height="204px" viewBox="-0.5 -0.5 261 204"
+     content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-09-24T21:34:34.934Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.83 Safari/537.36&quot; etag=&quot;wSwa4I9X-SO7Qtz0XkqE&quot; version=&quot;14.7.7&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;C5RBs43oDa-KdzZeNtuy&quot; name=&quot;Page-1&quot;&gt;7ZfbctowEIafxjPtBR0fsEMuYwPpgbRJSMtlR7GFrUGWXFkEyNN3ZUvYjkkD6aRXnWEY9Gt3Je1+WiWWF+XbS4GK7IonmFqunWwtb2y5rnc+hG8l7LTg27WQCpLUktMIc/KItWjM1iTBZcdQck4lKbpizBnDsexoSAi+6ZotOe2uWqAU94R5jGhfXZBEZrU6cs8a/SMmaWZWdoLzeuYexatU8DXT61mu5zjD0J/W0zkysfRBywwlfNOSvInlRYJzWf/KtxGmKrUmbYtPuwWdrYLLzzflL/Q9/HL39cegDjY9xWV/QoGZfHXoYDBY3aQ//e03ufg6Z8n1xr0dOH4d+wHRtc7nXPJig2Sc6VPLncl0uSE5RQxG4ZIzOdczDowRJSmD3zHsEAsQHrCQBIp0oScgKKhxRmgyQzu+VucoJVTAjMKMC/IIYRHVMWFaSM2bG3Qs5soTZBtUgUuwuTbJcZ5IV2jbMZyhUmoh5pSioiT3+2PkSKSEhVxKnhsvBQhO9KhcYZWZerAklEacclGlx5sO/RDYUhsXfIVbM7Y7ss9tnbaWPhlOxxO1ri4C5Axvn1D9Qs2dPYhwvzHPsRQ78DNRbM2uvtsG5U1zUdxAa1nrkrjGD+nLme5DN4TBDw3ZKcAFPeAGFWVQ6zuSg3QBQ8pZakHN4UaqtCkLzJJn53ukQhplrxCM1+i2qqYlQy/FS/ksu2WBYsLSWWUzHjbKrc6bkjj4LmnVJTKSJJhVBEkkUQ2Z2m3BCZNVXv0QPpDpyP7gWz5sPIKx04zho8wFMMPgLIhUKGAgeIMVxX/H0x8aQh8oA1BwHEDe8K34Oevx06s+JVVV6+qbN8F5VelzKCLFTa3vFArjgdPjwevz4B2oPUX3mF7zkkjCVXxR2z5h4qWyn95gqnXD/YPXMtFP3hsyExzZdEZvhczoADJwXLv10tnv3sNX3VxacqvDKIcUw6NnGlXHp2pIkWtd2D2n8lmnBw77PrDGRLe6E1Y46HIwftVpj7ID1I/brnpEcWv9Vov+35f/TV8ORsfdMcdzT75lMGz+yK3mWv9IeJPf&lt;/diagram&gt;&lt;/mxfile&gt;"
+     style="background-color: rgb(17, 75, 95);">
+    <defs>
+        <clipPath id="mx-clip-4-31-252-34-0">
+            <rect x="4" y="31" width="252" height="34"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-73-252-132-0">
+            <rect x="4" y="73" width="252" height="132"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 260 0 L 260 26" fill="#f45b69" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="all"/>
+        <path d="M 0 26 L 0 200 L 260 200 L 260 26" fill="none" stroke="#028090" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 0 26 L 260 26" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="129.5" y="17.5">Stopwatch</text>
+        </g>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-252-34-0)"
+           font-size="12px">
+            <text x="5.5" y="43.5">- startTime: long</text>
+            <text x="5.5" y="57.5">- endTime: long</text>
+        </g>
+        <path d="M 0 64 L 260 64" fill="none" stroke="#028090" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#E4FDE1" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-73-252-132-0)"
+           font-size="12px">
+            <text x="5.5" y="85.5">+ Stopwatch () : Stopwatch</text>
+            <text x="5.5" y="99.5">+ getStartTime () : long </text>
+            <text x="5.5" y="113.5">+ setStartTime () : void</text>
+            <text x="5.5" y="127.5">+ getEndTime () : long </text>
+            <text x="5.5" y="141.5">+ setEndTime () : void</text>
+            <text x="5.5" y="155.5">+ start () : void</text>
+            <text x="5.5" y="169.5">+ stop () : void</text>
+            <text x="5.5" y="183.5">+ getElapsedTime (): long</text>
+        </g>
+    </g>
+</svg>
