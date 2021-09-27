@@ -45,3 +45,17 @@ public class Exercise_3_01 {
 	}
 
 }
+
+/* OUTPUT
+Enter a, b, c
+1,0 3 1
+Root 1: -0.3819660112501051 and root 2: -2.618033988749895
+
+Enter a, b, c
+1 2,0 1
+Root: -1.0
+
+Enter a, b, c
+1 2 3
+The equation has no real roots.
+ */

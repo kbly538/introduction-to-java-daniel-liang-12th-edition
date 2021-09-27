@@ -43,14 +43,25 @@ public class Exercise_3_25 {
 			
 			double solutionX = (e * d - b * f) / (a * d - b * c);
 			double solutionY = (a * f - e * c ) / (a * d - b * c);
-			
-			if (solutionX != Double.POSITIVE_INFINITY) {
-				System.out.println("( " + solutionX + ", " + solutionY + " )");
-			} else {
-				System.out.println("Lines are parallel.");
-			}
-			
-			input.close();
-	
+
+		if (solutionX != Double.POSITIVE_INFINITY) {
+			System.out.println("( " + solutionX + ", " + solutionY + " )");
+		} else {
+			System.out.println("Lines are parallel.");
+		}
+		input.close();
+
 	}
 }
+
+/* OUTPUT
+Enter 4 end points for 2 lines:
+2 2 5 -1,0 4,0 2,0 -1,0 -2,0
+( 2.888888888888889, 1.1111111111111112 )
+
+
+Enter the points of the lines:
+2 2 7 6,0 4,0 2,0 -1,0 -2,0
+( -Infinity, -Infinity )
+
+ */
