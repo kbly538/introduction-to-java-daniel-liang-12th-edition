@@ -11,7 +11,7 @@ it will not stop.
  */
 package chapter10.oothinking.exercises.Exercise_10_07;
 
-import chapter9.ObjectsAndClasses.exercises.Exercise_09_07.Account;
+import chapter09.ObjectsAndClasses.exercises.Exercise_09_07.Account;
 
 import java.util.Scanner;
 
