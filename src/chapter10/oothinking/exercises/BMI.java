@@ -12,8 +12,6 @@ public class BMI {
     private String name;
     private int age;
     private double weight, height;
-    private double heightInInches;
-    private double heightInFeet;
 
     /* EXERCISE 10.02 */
     public BMI(String name, int age, double weight, double feet, double inches) {

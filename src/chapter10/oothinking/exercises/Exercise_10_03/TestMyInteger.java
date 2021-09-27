@@ -1,3 +1,25 @@
+/*
+(The MyInteger class) Design a class named MyInteger. The class contains:
+■■ An int data field named value that stores the int value represented by
+this object.
+■■ A constructor that creates a MyInteger object for the specified int value.
+■■ A getter method that returns the int value.
+■■ The methods isEven(), isOdd(), and isPrime() that return true if the
+value in this object is even, odd, or prime, respectively.
+■■ The static methods isEven(int), isOdd(int), and isPrime(int) that
+return true if the specified value is even, odd, or prime, respectively.
+■■ The static methods isEven(MyInteger), isOdd(MyInteger), and
+isPrime(MyInteger) that return true if the specified value is even, odd,
+or prime, respectively.
+■■ The methods equals(int) and equals(MyInteger) that return true if
+the value in this object is equal to the specified value.
+■■ A static method parseInt(char[]) that converts an array of numeric
+characters
+to an int value.
+■■ A static method parseInt(String) that converts a string into an int value.
+Draw the UML diagram for the class then implement the class. Write a client
+program that tests all methods in the class.
+ */
 package chapter10.oothinking.exercises.Exercise_10_03;
 
 public class TestMyInteger {
@@ -48,3 +70,44 @@ public class TestMyInteger {
 
     }
 }
+
+/* OUTPUT
+
+integer1.equals(37):  true
+integer1.equals(23): false
+integer2.equals(integer1): false
+integer3.equals(integer1): true
+integer1.equals(integer3): true
+
+getValue() for integer1: 37
+getValue() for integer2: 126
+getValue() for integer3: 37
+
+isEven() for integer1: false
+isEven() for integer2: true
+isEven() for integer3: false
+
+isOdd() for integer1: true
+isOdd() for integer2: false
+isOdd() for integer3: true
+
+isPrime() for integer1: true
+isPrime() for integer2: false
+isPrime() for integer3: true
+
+Static methods:
+MyInteger.isEven(integer1): false
+MyInteger.isEven(integer2): true
+MyInteger.isEven(integer3): false
+
+MyInteger.isOdd(integer1): true
+MyInteger.isOdd(integer2): false
+MyInteger.isOdd(integer3): true
+
+MyInteger.isPrime(integer1): true
+MyInteger.isPrime(integer2): false
+MyInteger.isPrime(integer3): true
+
+MyInteger.parseInt(charArray 57): 57
+MyInteger.parseInt(String 57): 57
+ */
