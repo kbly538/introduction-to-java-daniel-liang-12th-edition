@@ -45,6 +45,11 @@ public class Stopwatch {
     }
 
     public long getElapsedTime() {
-        return (endTime - startTime) / 1000;
+        return getStartTime() - getEndTime();
+    }
+
+    @Override
+    public String toString() {
+        return "Elapsed time since start " + (endTime - startTime) + " ms";
     }
 }

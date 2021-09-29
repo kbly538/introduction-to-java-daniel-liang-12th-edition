@@ -13,7 +13,7 @@ specified point (x, y) is inside this circle (see Figure 10.21a).
 ■■ A method contains(Circle2D circle) that returns true if the specified
 circle is inside this circle (see Figure 10.21b).
 ■■ A method overlaps(Circle2D circle) that returns true if the specified
-circle overlaps with this circle
+circle overlaps with this circle (see Figure 10.21c).
 Draw the UML diagram for the class then implement the class. Write a test
 program that creates a Circle2D object c1 (new Circle2D(2, 2, 5.5)),
 displays its area and perimeter, and displays the result of c1.contains(3,

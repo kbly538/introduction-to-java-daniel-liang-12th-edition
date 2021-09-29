@@ -3,7 +3,7 @@
 * feet, and inches
 */
 
-package chapter10.oothinking.exercises;
+package chapter10.oothinking.exercises.Exercise_10_02;
 
 public class BMI {
     public static final double KILOGRAMS_PER_POUND = 0.45359237;

@@ -1,5 +1,4 @@
 /*
-/*
 (Geometry: the Triangle2D class) Define the Triangle2D class that contains:
 ■■ Three points named p1, p2, and p3 of the type MyPoint with getter and
 setter
