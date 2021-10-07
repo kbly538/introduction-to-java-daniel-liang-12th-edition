@@ -1,0 +1,8 @@
+computer
+words
+word
+phone
+monitor
+food
+pork
+utensil

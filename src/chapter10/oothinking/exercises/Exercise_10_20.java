@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class Exercise_10_20 {
+
     public static void main(String[] args) {
 
         for (BigDecimal i = BigDecimal.valueOf(100);

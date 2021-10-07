@@ -12,6 +12,8 @@ import java.math.RoundingMode;
 public class Exercise_10_21 {
     public static void main(String[] args) {
 
+        String a = "DFSADSA";
+
         final int NUMBER_OF_INTEGERS_FOR_DISPLAY = 10;
 
         BigInteger value = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);

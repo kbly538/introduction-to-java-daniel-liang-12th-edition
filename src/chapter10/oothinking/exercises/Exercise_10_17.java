@@ -9,6 +9,11 @@ import java.math.BigInteger;
 
 public class Exercise_10_17 {
     public static void main(String[] args) {
+
+        int a = '0';
+        int b = '9';
+        System.out.println(a + " " + b);
+
         BigInteger value = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);
 
         value = value.sqrt();
