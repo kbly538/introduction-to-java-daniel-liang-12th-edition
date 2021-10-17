@@ -1,37 +1,54 @@
-package chapter14.javafx.listings.DisplayClock;
+/*
+(Draw a detailed clock) Modify the ClockPane class in Section 14.12 to draw
+the clock with more details on the hours and minutes, as shown in Figure
+14.52a.
+ */
+package chapter14.javafx.exercises.Exercise_14_27;
 
+import javafx.application.Application;
+import javafx.collections.ObservableList;
+import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class ClockPane extends Pane {
+public class Exercise_14_27 extends Application {
+    @Override
+    public void start(Stage stage) throws Exception {
+        ClockPane clock = new ClockPane();
+        clock.setHour(12);
+        clock.setMinute(33);
+        clock.setSecond(20);
+        clock.setMinSize(200, 200);
+
+        Scene scene = new Scene(clock);
+        stage.setScene(scene);
+        stage.show();
+    }
+}
+
+
+class ClockPane extends Pane {
+
     private int hour;
     private int minute;
     private int second;
-    private boolean hourHandVisible;
-    private boolean minuteHandVisible;
-    private boolean secondHandVisible;
 
     public ClockPane() {
         setCurrentTime();
-        this.hourHandVisible = true;
-        this.minuteHandVisible = true;
-        this.secondHandVisible = false;
     }
 
-    public ClockPane(int hour, int minute, int second,
-                     boolean hourHandVisible, boolean minuteHandVisible, boolean secondHandVisible) {
+    public ClockPane(int hour, int minute, int second) {
         this.hour = hour;
         this.minute = minute;
         this.second = second;
-        this.hourHandVisible = hourHandVisible;
-        this.minuteHandVisible = minuteHandVisible;
-        this.secondHandVisible = secondHandVisible;
     }
 
     private void setCurrentTime() {
@@ -53,10 +70,10 @@ public class ClockPane extends Pane {
         Circle circle = new Circle(centerX, centerY, clockRadius);
         circle.setFill(Color.WHITE);
         circle.setStroke(Color.BLACK);
-        Text t1 = new Text(centerX - 5, centerY - clockRadius + 12, "12");
-        Text t2 = new Text(centerX - clockRadius + 3, centerY + 5, "9");
-        Text t3 = new Text(centerX + clockRadius - 10, centerY + 3, "3");
-        Text t4 = new Text(centerX - 3, centerY + clockRadius - 3, "6");
+        Text t1 = new Text(centerX - 5, centerY - clockRadius + 12 * 2.3, "12");
+        Text t2 = new Text(centerX - clockRadius + 3 * 6.9, centerY + 5, "9");
+        Text t3 = new Text(centerX + clockRadius - 10 * 3, centerY + 3, "3");
+        Text t4 = new Text(centerX - 3, centerY + clockRadius - 3 * 6.9, "6");
 
 
         double sLength = clockRadius * 0.8;
@@ -77,14 +94,28 @@ public class ClockPane extends Pane {
         Line hLine = new Line(centerX, centerY, hourX, hourY);
         hLine.setStroke(Color.GREEN);
 
+
+        ArrayList<Line> lines = new ArrayList<>();
+        for (int i = 1; i <= 60; i++) {
+
+            double markLength = clockRadius * 0.92;
+            if (i % 5 == 0)
+                markLength = clockRadius * 0.8;
+            double markStartX = centerX + markLength * Math.sin(i * (2 * Math.PI / 60));
+            double markStartY = centerY - markLength * Math.cos(i * (2 * Math.PI / 60));
+            double markEndX = centerX + clockRadius * Math.sin(i * (2 * Math.PI / 60));
+            double markEndY = centerY - clockRadius * Math.cos(i * (2 * Math.PI / 60));
+            Line mark = new Line(markStartX, markStartY, markEndX, markEndY);
+
+            lines.add(mark);
+        }
+
+
         getChildren().clear();
-        getChildren().addAll(circle, t1, t2, t3, t4);
-        if (this.secondHandVisible == true)
-            getChildren().add(sLine);
-        if (this.minuteHandVisible == true)
-            getChildren().add(mLine);
-        if (this.hourHandVisible == true)
-            getChildren().add(hLine);
+        getChildren().addAll(circle, t1, t2, t3, t4, sLine, mLine, hLine);
+        for (int i = 0; i < lines.size(); i++) {
+            getChildren().add(lines.get(i));
+        }
 
 
     }
@@ -126,29 +157,5 @@ public class ClockPane extends Pane {
     public void setSecond(int second) {
         this.second = second;
         paintClock();
-    }
-
-    public boolean isHourHandVisible() {
-        return hourHandVisible;
-    }
-
-    public void setHourHandVisible(boolean hourHandVisible) {
-        this.hourHandVisible = hourHandVisible;
-    }
-
-    public boolean isMinuteHandVisible() {
-        return minuteHandVisible;
-    }
-
-    public void setMinuteHandVisible(boolean minuteHandVisible) {
-        this.minuteHandVisible = minuteHandVisible;
-    }
-
-    public boolean isSecondHandVisible() {
-        return secondHandVisible;
-    }
-
-    public void setSecondHandVisible(boolean secondHandVisible) {
-        this.secondHandVisible = secondHandVisible;
     }
 }

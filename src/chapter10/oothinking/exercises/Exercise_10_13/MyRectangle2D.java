@@ -100,12 +100,12 @@ public class MyRectangle2D {
                 smallestY = points[i][1];
         }
 
-        double boundingRetangleWidth = largestX - smallestX;
+        double boundingRectangleWidth = largestX - smallestX;
         double boundingRectangleHeight = largestY - smallestY;
-        double x = (boundingRetangleWidth / 2) + smallestX;
+        double x = (boundingRectangleWidth / 2) + smallestX;
         double y = (boundingRectangleHeight / 2) + smallestY;
 
-        return new MyRectangle2D(x, y, boundingRetangleWidth, boundingRectangleHeight);
+        return new MyRectangle2D(x, y, boundingRectangleWidth, boundingRectangleHeight);
     }
 
     public boolean contains(double x, double y) {
